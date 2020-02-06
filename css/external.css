@@ -46,7 +46,7 @@
     float: none;
   }
 
-  #landing-page
+  #landing-page, #description-message
   {
     text-align: center;
   }
@@ -66,6 +66,7 @@ No media query since the extra-large breakpoint has no upper bound on its width
 {
   padding: 20px 50px;
   color: #000a12;
+  width: 100%;
 }
 
 #main a:link {

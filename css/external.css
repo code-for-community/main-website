@@ -1,0 +1,148 @@
+/** Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px)
+{
+
+}
+
+/** Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px)
+{
+
+}
+
+/** Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px)
+{
+  #nav
+  {
+    text-align: center;
+  }
+
+  #nav-logo
+  {
+
+    margin-bottom: 20px;
+  }
+
+  #nav #nav-links
+  {
+    text-align: center;
+  }
+
+  #nav #nav-links .link
+  {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #nav #nav-links #main-links
+  {
+    margin-top: 10px;
+  }
+
+  #nav #nav-links #join-button
+  {
+
+    float: none;
+  }
+
+  #landing-page
+  {
+    text-align: center;
+  }
+}
+
+/** Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px)
+{
+
+}
+
+/**
+Extra large devices (large desktops)
+No media query since the extra-large breakpoint has no upper bound on its width
+*/
+#main
+{
+  padding: 20px 50px;
+  color: #000a12;
+}
+
+#main a:link {
+  text-decoration: none;
+  color: #000a12;
+}
+
+#main a:visited {
+  text-decoration: none;
+  color: #000a12;
+}
+
+#main a:hover {
+  text-decoration: none;
+}
+
+#main a:active {
+  text-decoration: none;
+}
+
+#nav
+{
+
+}
+
+#nav-links
+{
+  font-family: 'Roboto', sans-serif;
+  text-align: right;
+}
+
+#nav-links .link
+{
+  margin-right: 50px;
+  font-size: 15px;
+}
+
+#nav-links #join-button
+{
+  background-color: #40c4ff;
+  color: #263238;
+  float: right;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#nav-links #join-button:hover
+{
+  background-color: #0094cc;
+  transition: 0.3s;
+}
+
+#content
+{
+  font-family: 'Source Sans Pro', sans-serif;
+  height: 600px;
+}
+
+#landing-page
+{
+  height: 400px;
+}
+
+#intro
+{
+  background-color: #0094cc;
+  color: #ffffff;
+}
+
+#intro #message
+{
+  margin: 50px auto;
+}
+
+#footer
+{
+  padding-top: 50px;
+  margin-bottom: 0px;
+}

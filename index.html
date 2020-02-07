@@ -8,7 +8,7 @@
     <!-- <link rel="stylesheet" href="css/external.css"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:500|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Roboto:500|Source+Sans+Pro&display=swap" rel="stylesheet">
 
     <style>
     /** Extra small devices (portrait phones, less than 576px)*/
@@ -99,6 +99,13 @@
       text-decoration: none;
     }
 
+    #logo
+    {
+      font-family: 'Barlow Condensed', sans-serif;
+      color: #0094cc;
+      font-size: 25px;
+    }
+
     #nav
     {
       padding-left: 20px;
@@ -136,7 +143,7 @@
     #content
     {
       font-family: 'Source Sans Pro', sans-serif;
-      height: 600px;
+      padding-bottom: 50px;
     }
 
     #landing-page
@@ -157,16 +164,19 @@
 
     #footer
     {
-      padding-top: 50px;
-      margin-bottom: 0px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background-color: #263238;
+      color: #ffffff;
     }
     </style>
   </head>
   <body>
-    <div id="main" class="">
+    <div id="main" class="container-fluid">
       <div id="nav" class="row">
         <div id="nav-logo" class="col-lg-6">
-          <img src="" alt="logo here">
+          <!--<img src="" alt="logo here">-->
+          <span id="logo" style="">Code for Community</span>
         </div>
 
         <div id="nav-links" class="col-lg-6">
@@ -181,34 +191,37 @@
       </div>
 
       <div id="content" class="row">
-        <div class="col">
+        <div class="col-lg-12">
           <div id="landing-page" class="row" style="padding-left: 50px;">
-            <div class="col">
+            <div class="col-lg-12">
               <h1 style="margin-top: 100px;">Enriching the Community with Computing.</h1>
             </div>
           </div>
 
           <div id="intro" class="row">
-            <div class="col text-center">
+            <div class="col-lg-12 text-center">
               <h4 id="message" style="word-spacing: 8px; letter-spacing: 2px;">Sign up NOW to volunteer for the upcoming programs.</h4>
             </div>
           </div>
 
           <div id="description" class="row" style="padding-top: 50px; padding-left: 50px;">
-              <div id="description-message" class="col-lg-6">
-                #codeForCommunity is here to create learning opportunities for underserved communities.
-
-Whether it’s helping them to learn a programming language, making them aware of about about online safety or helping them develop skills for a career, #codeForCommunity is here to serve.
-              </div>
-              <div class="col-lg-6">
-                insert_content_here
-              </div>
+            <div id="description-message" class="col-lg-6">
+              <p>
+                <b>#codeForCommunity</b> is here to create learning opportunities for underserved communities.
+              </p>
+              <p style="margin-top: 50px;">
+                Whether it’s helping them to learn a programming language, making them aware of about about online safety or helping them develop skills for a career, #codeForCommunity is here to serve.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              insert_content_here
+            </div>
           </div>
         </div>
       </div>
 
       <div id="footer" class="row">
-        <div class="col text-center" style="padding-top: 50px;">
+        <div id="footer-content" class="col-lg-12 text-center">
           Designed & Developed by the Task Force.
           <br>
           Copyright © 2019 - Present. All rights reserved.

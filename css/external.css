@@ -87,11 +87,6 @@ No media query since the extra-large breakpoint has no upper bound on its width
   text-decoration: none;
 }
 
-#nav
-{
-
-}
-
 #nav-links
 {
   font-family: 'Roboto', sans-serif;
@@ -123,7 +118,6 @@ No media query since the extra-large breakpoint has no upper bound on its width
 #content
 {
   font-family: 'Source Sans Pro', sans-serif;
-  height: 600px;
 }
 
 #landing-page
@@ -144,6 +138,5 @@ No media query since the extra-large breakpoint has no upper bound on its width
 
 #footer
 {
-  padding-top: 50px;
-  margin-bottom: 0px;
+
 }
